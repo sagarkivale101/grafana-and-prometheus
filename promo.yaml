@@ -23,7 +23,7 @@ metadata:
       app: prometheus
       tier: deploy
 spec:
-    replicas: 2
+    replicas: 1
     selector:
       matchLabels: 
         app: prometheus
